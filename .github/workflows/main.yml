@@ -30,4 +30,4 @@ jobs:
         run: |
           oc project k-att-y70-dev
           oc apply -f ocsecurity.yaml
-          oc rollout status deployment/mi-deployment
+          oc delete
